@@ -1,0 +1,135 @@
+[01]  Scope :
+
+      -  Local : 
+         The local means that is work with within a file,block,function.
+         it define using let keword.
+         if we define inside the function then it will work only inside the fucntion.
+         if we define outside the function or block and we can used that inside function and also use that our file...
+
+
+      -  Global :
+         This means we can access anywhere because of this global variable and function.
+         it will define with VAR keyword.
+         if we define inside the function but we can access it inside function and outside the funcion...
+
+[02]  Callback :
+         (Extra) :
+            Asyncronous : This means when it called that time it will be initiate but instance it will return but it will return when data is get. and it will not run line by line but it will return when data finally come.
+
+            Syncronous : This means it will work line by line. if data not get then it will not work next task.if first task complete then execute next task...
+
+         The callback is nothing one type on variable and we used that variable as function in inside the function and we need to pass that callback varibale as a function name.
+
+         We can perform it inside function called other function but we want to other function also then it will not best way to implement that so we used callback
+
+         we have a 2 other function and one function with callback so when we want to specific other fucntion pass into variable then it will called only that specific functions...
+
+         We can pass also anynoumous function and arrow functions..
+
+         See the example in js file...
+
+[03]  Async & Await  :
+
+         The Aysnc & Await is nothing. It is just like a promise.
+         The Async Function is always return a promise.
+
+         await is used with async so without async we can not the used the await.
+
+         If we used await then that need to parent have a async.
+         the await means stop the next execution were current is not execute prperly if execute properly then go to next await execution.
+
+         but without await data will be execute before await data and after await data.
+
+[04]  DOM Events  :
+         4.1  Mouse
+         4.2  keyboard
+         4.3  frame
+         4.4  form
+
+         [4.1] Mouse :
+                  onclick : Used for single click...
+                  ondbClick : Used for double click...
+                  onmousedown : Similliar as click but down measn hold the click.
+                  onmouseup : Used for the click press up.
+                  onmuseover : Used for the mouse over on element
+                  onmousout : Used for when you leave that element.
+                  onmouseenter : when you enter the mouser then it will be called.
+
+         [4.2] keyboard :
+                  onkeydown : when key down that time it will called.when we any key push then it will called.
+                  onkeyup : when key up then it will called.
+                  onkeypress : when key press then it will called.it is not work with all keys, like backspace,control,alter these key not work in this event.
+         
+         [4.3] frame :
+                  It is used for the create a multiple browser window.
+                  It is devide the actual window to multiple browser frame.
+                  All partition called as a frames
+                  The frames create with the <frameset> is parent and <frame> inside the <framset>.
+                  This is not support in HTML5 so we can not used this.
+                  But it is replaced by <iframe> tag so we can used <iframe> tag for the any other window browser...
+         
+         [4.4] Form  :
+                  This is used for the input field.
+                  like onfocus color change, onblur style change, get change in input field, get instantlly data when we typing the data into input filed using input event.
+                  event like : focus,blur,change,input etc...
+
+                  Form Input Validation :
+                      
+[05]  Browser :
+         Windows Properties & methods...
+
+[06]  Basic Objects :
+         -  Date Methods
+         -  Array Methods
+         -  String Methods
+
+[07]  Datatypes :
+         -  int
+         -  Decimal(float)
+         -  String
+         -  Boolean
+         -  Array
+         -  Objects
+         -  Undefined
+         -  Null
+         -  Date
+
+[08]  Functional Programming :
+         This also called as first class citizen function.
+         It is popular becuase of we can assing a function to any varibale and we can pass function as a parameter variable and inside function we can used that parameter variable like a function.
+
+         Inside the function we can return other function.
+
+         so then we can call inside function using double bracket.
+
+         eg :
+            function a(){
+               return function b(){
+                  console.log("b called");
+               }
+            }
+
+            a()();
+
+         Ref : https://www.youtube.com/watch?v=Us2KgfJeFYo&ab_channel=ThapaTechnical
+
+[09]  Event Deligation :
+         [09.1]   Event Bubbling :
+                     This is work with bottom to top appproach...
+                     We can stop the bubbling using [event.stopPropagation()] in any function(child or parent) it is write inside the function before return statement.
+                     if we pass third parameter as false to addEventListener('click',function,false); it means bubble.
+
+         [09.2]   Event Capturing :
+                     This is work with top to bottom approach...
+                     if we pass third parameter as false to addEventListener('click',function,true); it means Capturing.
+
+      Ref : https://www.youtube.com/watch?v=8vRSVzM1eIQ&ab_channel=CodeWithKashi
+         
+[10]  Object Destruction :
+         This is used for the change the structure and we need to object under data name as new data. like . let {id,name,degree} same as a original object vairbale.
+         also we can own variable name but we need to specify like let {id:myId,name:myName,degree}
+         This is nothing just change the structure of the variable...
+
+         Ref : https://www.youtube.com/watch?v=k6yMQhPvbrM&ab_channel=ThapaTechnical
+
+
